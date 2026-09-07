@@ -1,0 +1,486 @@
+# seed_v2.txt -- expanded seed corpus for the toxic-span teacher
+#
+# FORMAT
+#   One raw chat message per line. Lines starting with '#' are structure, not
+#   data: the teacher client must skip them. A category header is a '#' line
+#   whose first token is the category name in square brackets, for example
+#       # [DIRECTED_HOSTILITY_SEPARABLE]  (expected: ...)  ~60
+#   and it sets the AUTHOR-INTENT CATEGORY for the data lines that follow.
+#   The brackets are deliberate: any other '#' line is free prose, so a
+#   comment that happens to begin with a category name cannot be mistaken
+#   for a header. (This exact mistake was caught in testing.)
+#
+# WHAT THE CATEGORY IS -- AND IS NOT
+#   The category is NOT a label. The teacher decides the labels (the <del>
+#   spans) per teacher_prompt.md and annotation_policy.md. The category
+#   records what the author *expected* the branch to be. It serves two jobs:
+#     1. Stratified train/test split and per-category evaluation, so the
+#        results chapter can report "how does the tagger do on swear-free
+#        hostility vs obfuscated profanity vs traps" separately.
+#     2. Disagreement QC. When the teacher's output contradicts the
+#        author's expectation (e.g. it tags a line filed under CLEAN, or
+#        leaves a FUSED line untouched), that row is worth inspecting.
+#        The per-category author-vs-teacher disagreement rate is itself a
+#        reportable number and an honest measure of how contestable the
+#        boundary is.
+#   The client should carry the active category into each emitted JSONL row.
+#
+# WEIGHTING
+#   The headline capability -- swear-free hostility aimed at a person, with
+#   keepable content alongside -- is deliberately the largest class, and it
+#   is paired with an equally large PLAY_CRITICISM contrast class that reuses
+#   the same negative vocabulary aimed at plays and situations. That pairing
+#   is what teaches the person-vs-play line instead of "negative word = toxic".
+#
+# EXCLUDED ON PURPOSE
+#   Identity-based slurs (racial, ethnic, sexual-orientation, etc.) are not
+#   hand-authored here. Authoring them is inappropriate and unnecessary: the
+#   Jigsaw-trained gate already covers identity attacks, and if slur coverage
+#   is needed for the tagger it should be sourced from an existing annotated
+#   corpus (Jigsaw, SemEval Toxic Spans), not written by hand.
+#
+# ONE SECTION REMAINS REVIEW-FLAGGED (see note at it): SARCASM_REVIEW.
+#   GROUP_DIRECTED has been ruled (toxic, remove) and is now a normal class.
+#
+# Register: MOBA / team-shooter chat (lanes, baron, dragon, sites, flags),
+# mixed casing and punctuation, as real chat is.
+
+
+# ============================================================================
+# [DIRECTED_HOSTILITY_SEPARABLE]  (expected: separable, remove the clause,
+# keep the tactical content)  -- HEADLINE CLASS, ~60
+# Swear-free attack on a person + real keepable content. Insult position
+# varies (start / middle / end) to avoid positional bias.
+# ============================================================================
+You should've listened to me and went top. You are such a trash player, when I call go baron you go baron.
+group mid now, you useless bot, they're taking dragon
+you have no idea what you're doing, just ward the river and stay behind me
+stop feeding you useless bot, group mid
+how are you this bad, just focus the healer first
+peel for me you clown, i'm the carry here
+you're the reason we're losing, back off the tower
+save your ult next time you brainless player, we needed it for the fight
+rotate bot lane, and stop being so useless
+a bot would play better than you, take the objective when i ping it
+don't chase, you trash player, they have ult up
+you're hopeless honestly, but come help at dragon
+take the tower now, you're completely worthless in fights anyway
+ward your lane you garbage jungler, they keep ganking
+you belong in bronze, stop face checking bushes
+we need to group, you're the worst support i've ever had
+hold the site and stop being dead weight
+plant the bomb, i'll cover, you useless teammate
+rotate to B now, are you even trying
+go back to bot games, and buy wards for once
+watch the flank, you dogwater player
+you got carried all game, just push bot with me
+stop dying for free you pathetic player, we can't take baron like this
+def base now, you have zero game sense
+split push top, you're clearly boosted anyway
+heal me, you're the most useless healer alive
+drop the flag and run, you absolute bot
+you're hardstuck for a reason, just follow my calls
+stay back and farm, you're a liability in every fight
+back off, you clearly can't fight, let me take this
+the enemy jungler is top, and you're braindead for not warding
+go afk farm, you're a waste of a slot on this team
+you're the reason i'm losing elo, just take dragon with me
+focus the adc, not the tank, you clueless player
+use your ult on the healer, you have no brain
+push mid, you're dead weight but at least you can push
+don't fight in their jungle, you never learn anything
+ping before you engage, you brainless bot
+ok whatever, you're useless, just group and follow
+stop stealing my farm you garbage player, i need the gold
+buy a control ward for once you trash support
+don't flash forward like that, you're hopeless in fights
+peel the adc, you have no clue how to play this role
+we lost baron because you're clueless, let's just def
+you're the worst mid i've seen, but come take tower with me
+stop inting, you're a joke, group at dragon
+hold the choke, you useless player, they're pushing
+rez me, you left me to die like a coward
+cover me while i plant, you're useless with a gun anyway
+go top, you're so bad it hurts, just farm
+you're a bronze player in a gold lobby, follow the ping
+don't dive alone, you never think, wait for me
+take the dragon, you're garbage but you can at least do that
+you play like a bot, ward the river next time
+stop being a liability, group for the fight
+you're carried by your duo, take the tower
+we're winning despite you, just push bot
+you should be ashamed of that positioning, stay behind the tank
+you never listen, you're hopeless, come to baron
+get off my lane you useless bot, i'm carrying this
+
+
+# ============================================================================
+# [DIRECTED_HOSTILITY_FUSED]  (expected: whole message deleted -- no keepable
+# residue)  ~30
+# Swear-free, and the attack IS the message. Nothing tactical to keep.
+# ============================================================================
+how are you this bad at this game
+just uninstall already
+you are actually the worst player i've ever seen
+a bot would do better than you
+you're hopeless
+do you even have hands
+you totally suck
+you're trash and honestly just uninstall
+delete the game, you're embarrassing
+you have zero brain cells
+worst support in the history of this game
+you're the reason people quit this game
+go back to the tutorial
+you should not be allowed to play ranked
+you're dead weight and nothing else
+how did you even get to this rank
+you're a waste of a team slot
+you play like you've never seen a keyboard
+stop playing, you're hopeless
+you're garbage, plain and simple
+everything you do is wrong
+you're the most useless player in this lobby
+you're boosted and it shows
+i've seen bots with better game sense than you
+you're pathetic
+uninstall and never come back
+you are a complete joke
+not a single good decision from you all game
+you're the worst teammate imaginable
+you have no business being in this rank
+
+
+# ============================================================================
+# [PLAY_CRITICISM]  (expected: NO deletion -- criticises the play, decision, or
+# situation, not the person)  -- CONTRAST CLASS, ~40
+# Deliberately reuses the hostility vocabulary (trash, garbage, useless,
+# braindead, hopeless) aimed at plays. This is the person-vs-play line.
+# Note the frequent "we"/"our" and "that [play] was..." framing.
+# ============================================================================
+that was a garbage call, we should group
+bad rotation there, we lost the tower for nothing
+that engage was hopeless, wait for the tank next time
+terrible draft, we have no frontline
+that was a trash play but we can still win
+useless ult there, save it for the fight
+what a clown play, let's just def
+that flash was wasted, be careful
+worst baron call of the game, we weren't ready
+the rotation was too slow, we need to move faster
+that was a braindead engage, they had ult up
+our vision is garbage, we need more wards
+that dive was a mistake, don't do it again
+bad positioning in that fight, stay behind the tank
+that was a terrible trade, back off next time
+this lag is unplayable
+these servers are awful today
+the matchmaking is a joke
+that call was garbage, we should have taken dragon
+we wasted the ult, that's on all of us
+that fight was a disaster, let's reset
+the peel was nonexistent, we need to protect the carry
+horrible timing on that engage
+that was a bad flank, they saw us coming
+our macro is trash right now, let's regroup
+that dragon fight was a mess
+sloppy play from all of us, focus up
+the split push isn't working, group up
+that was the wrong target, hit the healer first
+we got outplayed there, reset and try again
+that push was way too early
+bad call to contest, we should have farmed
+we threw that fight, no vision
+this patch is garbage, the balance is off
+that item build makes no sense for this matchup
+we're feeding mid, let's group instead
+terrible objective control this game
+that was a hopeless fight, we should have backed
+useless engage, we had no follow up
+the enemy team is smurfing, this lobby is a joke
+
+
+# ============================================================================
+# [PROFANITY_PLAIN]  (expected: word-tight removal of the expletive, clause
+# kept)  ~25
+# Includes undirected expletives (removed anyway) and directed ones where the
+# event report survives ("that bitch stole my kill" -> "that stole my kill").
+# ============================================================================
+that was fucking insane
+shit i died again
+what the hell man
+this is bullshit
+damn nice play
+fuck this lag
+stop being an asshole
+that bitch stole my kill
+fucking laggy server
+what a dick move
+i am so pissed right now
+goddamn campers everywhere
+this map is shitty
+quit being a prick
+holy shit that aim
+what the fuck team
+get this bastard
+piss off please
+oh crap my bad
+you little shit
+hell yeah lets go
+that fucking jungler never ganks
+damn it, i missed the ult
+shit shit shit they're at baron
+fuck, my bad, i didn't see him
+
+
+# ============================================================================
+# [PROFANITY_OBFUSCATED]  (expected: word-tight removal of the disguised
+# token(s); spaced forms span several basic tokens)  ~25
+# ============================================================================
+wtf was that
+sh1t that hurt
+f u c k this game
+stfu already
+omfg so laggy
+b1tch please
+fck this lag
+phuck that noob
+ffs my team
+dafuq is happening
+s h i t missed again
+sh1tty connection today
+azzhole move there
+wtaf was that play
+fuk this map
+dammit missed again
+biatch stop it
+holy sh1t nice
+effin campers again
+fuq the lag
+w t f are you doing
+sh!t we lost baron
+f*ck this matchup
+what the h e l l
+stfu and play
+
+
+# ============================================================================
+# [MIXED]  (profanity + hostility in one message)  ~21
+# Exercises the rule that profanity is word-tight while hostility is
+# clause-level, and shows why: it is about what survives.
+#   "go top you fucking moron"  -> keep "go top"
+#   "fuck you, you useless player" -> whole clause, nothing to keep (fused)
+# "you fucking noob" -- RULED (stacked-attack rule, policy section 7): the
+# profanity escalates the taunt into an attack, so the whole phrase goes and,
+# standing alone, the message is fused (expected: whole message deleted).
+# "you fucking noob, group mid" is its separable counterpart (instruction kept).
+# ============================================================================
+fuck you, you useless player
+shut the fuck up you trash bot
+go top you fucking moron
+group mid you shit player
+you fucking noob
+you fucking noob, group mid
+fucking peel for me you useless clown
+ward the river you shit support, they keep ganking
+stop fucking feeding, you're garbage, just group
+take dragon now you fucking bot
+fuck off and let me farm, you useless player
+you're a fucking waste of a slot
+what the fuck are you doing, go back
+fuck this useless jungler, never ganks
+shit player, just push bot with me
+get fucked, you're hopeless
+fuck, you're so bad, just def base
+stfu and follow the ping you clown
+damn you're useless, take the tower anyway
+holy shit you're bad, ward next time
+this fucking team is trash
+
+
+# ============================================================================
+# [FRONTIER_BANTER]  (expected: NO deletion -- ritual taunts about the OUTCOME,
+# and "noob" as a tag/vocative on such a taunt, per policy section 7 rev. 2)  ~18
+# "get good scrub" is the one exception here: "get good" stays, "scrub"
+# (directed personal label) goes. Included to exercise the split.
+# Revision 2: "you are such a noob" and "diff jungle" moved to FRONTIER_PREDICATE
+# below, following the blind pass. The line is tag vs predicate, not the word.
+# ============================================================================
+ez game ez life
+gg ez
+ez clap
+git gud
+get good
+git gud noob
+skill issue honestly
+l bozo ratio
+ez
+get good scrub
+outplayed, gg
+ez win boys
+noob team lol
+cope harder
+ratio + L
+skill issue tbh
+ez mid
+gg no re
+
+
+# ============================================================================
+# [FRONTIER_PREDICATE]  (expected: toxic, whole message -- policy section 7 rev. 2
+# DECISION)  ~4
+# The same mild words as FRONTIER_BANTER, but as a PREDICATE asserting a specific
+# person's inadequacy rather than a tag on an outcome taunt. Ruled toxic in the
+# blind pass. Contrast pairs: "git gud noob" (tag, stays) vs "you are such a noob"
+# (predicate, goes); "ez" (outcome) vs "diff jungle" (a person is the reason).
+# ============================================================================
+you are such a noob
+diff jungle
+you're such a noob lol
+diff mid honestly
+
+
+# ============================================================================
+# [SELF_DIRECTED_AND_REPORTED]  (expected: NO deletion -- no target, or
+# reported speech)  ~15
+# ============================================================================
+I'm trash at this hero honestly
+my bad i fed
+i'm so bad today
+i'm the reason we lost that one
+sorry i'm useless on this champ
+he told me to uninstall lol
+they said i'm trash in all chat
+some guy called me a bot last game
+i keep dying, i'm hopeless
+my positioning is garbage today
+i'm hardstuck and it's on me
+the enemy said ez, whatever
+got told to go back to bronze, rude
+i played like a bot that fight
+i'm dead weight this game sorry
+
+
+# ============================================================================
+# [FALSE_POSITIVE_TRAPS]  (expected: NO deletion -- profanity substrings inside
+# clean words; the tagger must not fire on these)  ~17
+# ============================================================================
+great class balance
+assassin build is strong
+the grass looks weird
+cockpit view is cool
+i love shiitake mushrooms
+scunthorpe united fan here
+back to the classic map
+pass me the buff
+assemble at the point
+assess the situation first
+bass boosted music lol
+glass cannon build
+mass rez incoming
+the passage is blocked
+assist me on this
+cumulative damage from the dot is huge
+the analysis was spot on
+
+
+# ============================================================================
+# [CLEAN]  (expected: NO deletion -- neutral, strategic, pro-social)  ~35
+# Restraint class. Most of these never reach model 2 at runtime, but the
+# tagger must learn that a message arriving is not automatically toxic.
+# ============================================================================
+gg wp everyone
+nice shot man
+lets push mid now
+heal me please
+enemy spotted top lane
+who has ultimate ready
+good game all
+ty for the carry
+rotate bot lane now
+i need backup here
+watch out behind you
+great teamwork guys
+buying items brb
+focus the healer first
+defend the objective
+nice clutch play
+gl hf everyone
+on my way
+ping the map please
+save your ultimate
+we got this team
+regroup at base
+nice sniper shot
+enemy jungler top side
+push for the win
+well played everyone
+i love this map
+good luck out there
+thanks for the heal
+lets take the objective
+report this guy please
+that was actually insane
+nice ward, saved us
+good call on dragon
+i'll peel for you, go in
+
+
+# ============================================================================
+# [MULTI_SPAN]  (expected: two or more SEPARATE spans, clean text between them
+# kept; spans are not merged)  ~12
+# Also exercises "don't guess on sarcasm": "nice shot" survives.
+# ============================================================================
+nice shot idiot, now push mid you clown
+ward the river you bot, and stop stealing my farm you leech
+good rotation, shame you're useless in fights, group now you clown
+you're trash at mid, take the tower, and you're trash at objectives too
+peel for me you clown, then go farm you useless bot
+you useless support, heal me, you absolute bot
+go top you moron, and ward for once you clown
+take dragon, you brainless player, then push bot, you liability
+you never listen you clown, group at baron, hopeless as always
+rotate B you bot, plant it, you useless teammate
+you're garbage, but nice ult, still garbage though
+stop feeding you idiot, we group now, and stop flaming you hypocrite
+
+
+# ============================================================================
+# [GROUP_DIRECTED]  (expected: toxic, remove -- RULED, see policy section 7)  ~11
+# Attacks on the team collectively. Ruling: a team is people, so demeaning
+# them is directed hostility and is removed under the same separable/fused
+# test as an attack on one player. Contrast class is the self-inclusive
+# PLAY_CRITICISM lines ("our macro is trash", "sloppy play from all of us"),
+# which own a shared mistake and stay.
+# The first eight lines are fused (the attack is the whole message); the last
+# three are separable, with a keepable instruction.
+# ============================================================================
+absolute trash team
+this team is garbage
+worst team i've ever had
+you're all useless
+my team is a bunch of bots
+this team can't do anything right
+everyone on this team is braindead
+what a useless team
+this team is garbage, just group and def
+you're all useless, at least take the tower
+everyone here is braindead, follow my pings and we might win
+
+
+# ============================================================================
+# [SARCASM_REVIEW]  -- FLAGGED, NOT FORCE-LABELLED  ~10
+# Per policy section 10 these are for measuring disagreement, not for
+# confident labelling. The prompt tells the teacher "do not guess on sarcasm",
+# so expect mostly NO deletion here. Inspect every one of these rows.
+# ============================================================================
+wow great play genius
+nice one, really impressive
+thanks for the free kills, real helpful
+amazing ult, truly
+good job feeding, keep it up
+oh nice, another death, very cool
+brilliant positioning, love to see it
+great call, we lost the tower, well done
+nice ward, oh wait there isn't one
+incredible, you did it again

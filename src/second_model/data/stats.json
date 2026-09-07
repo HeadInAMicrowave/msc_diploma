@@ -1,0 +1,164 @@
+{
+  "seed": 42,
+  "test_frac": null,
+  "frozen_test": "data\\test_human.jsonl",
+  "frozen_test_rows": 56,
+  "frozen_rows_absent_from_input": 2,
+  "excluded_categories": [
+    "SARCASM_REVIEW"
+  ],
+  "singleton_categories_all_train": [],
+  "input_rows": 287,
+  "skipped_malformed": 0,
+  "duplicates_removed_same_category": 0,
+  "duplicates_cross_category": [],
+  "train": {
+    "messages": 223,
+    "tokens": 1606,
+    "toxic_tokens": 449,
+    "out_tokens": 1157,
+    "toxic_ratio": 0.2796
+  },
+  "test": {
+    "messages": 56,
+    "tokens": 408,
+    "toxic_tokens": 131,
+    "out_tokens": 277,
+    "toxic_ratio": 0.3211
+  },
+  "review": {
+    "messages": 10,
+    "tokens": 69,
+    "toxic_tokens": 0,
+    "out_tokens": 69,
+    "toxic_ratio": 0.0
+  },
+  "by_category": {
+    "CLEAN": {
+      "count": 28,
+      "train": 28,
+      "test": 7,
+      "review": 0,
+      "out": 28,
+      "partial": 0,
+      "fused": 0
+    },
+    "DIRECTED_HOSTILITY_FUSED": {
+      "count": 17,
+      "train": 17,
+      "test": 4,
+      "review": 0,
+      "out": 11,
+      "partial": 2,
+      "fused": 4
+    },
+    "DIRECTED_HOSTILITY_SEPARABLE": {
+      "count": 42,
+      "train": 42,
+      "test": 11,
+      "review": 0,
+      "out": 2,
+      "partial": 40,
+      "fused": 0
+    },
+    "FALSE_POSITIVE_TRAPS": {
+      "count": 12,
+      "train": 12,
+      "test": 3,
+      "review": 0,
+      "out": 12,
+      "partial": 0,
+      "fused": 0
+    },
+    "FRONTIER_BANTER": {
+      "count": 16,
+      "train": 16,
+      "test": 4,
+      "review": 0,
+      "out": 12,
+      "partial": 3,
+      "fused": 1
+    },
+    "FRONTIER_PREDICATE": {
+      "count": 2,
+      "train": 2,
+      "test": 0,
+      "review": 0,
+      "out": 2,
+      "partial": 0,
+      "fused": 0
+    },
+    "GROUP_DIRECTED": {
+      "count": 5,
+      "train": 5,
+      "test": 1,
+      "review": 0,
+      "out": 0,
+      "partial": 2,
+      "fused": 3
+    },
+    "MIXED": {
+      "count": 15,
+      "train": 15,
+      "test": 4,
+      "review": 0,
+      "out": 0,
+      "partial": 13,
+      "fused": 2
+    },
+    "MULTI_SPAN": {
+      "count": 10,
+      "train": 10,
+      "test": 2,
+      "review": 0,
+      "out": 0,
+      "partial": 10,
+      "fused": 0
+    },
+    "PLAY_CRITICISM": {
+      "count": 28,
+      "train": 28,
+      "test": 7,
+      "review": 0,
+      "out": 28,
+      "partial": 0,
+      "fused": 0
+    },
+    "PROFANITY_OBFUSCATED": {
+      "count": 19,
+      "train": 19,
+      "test": 5,
+      "review": 0,
+      "out": 7,
+      "partial": 12,
+      "fused": 0
+    },
+    "PROFANITY_PLAIN": {
+      "count": 17,
+      "train": 17,
+      "test": 5,
+      "review": 0,
+      "out": 3,
+      "partial": 14,
+      "fused": 0
+    },
+    "SARCASM_REVIEW": {
+      "count": 10,
+      "train": 0,
+      "test": 0,
+      "review": 10,
+      "out": 10,
+      "partial": 0,
+      "fused": 0
+    },
+    "SELF_DIRECTED_AND_REPORTED": {
+      "count": 12,
+      "train": 12,
+      "test": 3,
+      "review": 0,
+      "out": 12,
+      "partial": 0,
+      "fused": 0
+    }
+  }
+}

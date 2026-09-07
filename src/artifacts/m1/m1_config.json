@@ -1,0 +1,18 @@
+{
+  "_comment": "Construction parameters for the trained TextCNN, from first_model.cpp's constants. vocab_size 0 = derive from vocab.tsv. fixed_len 0 = dynamic padding (T = max(len, min_seq_len)); set it to the training max_seq_len printed by first_model to pad exactly as training did.",
+  "vocab_size": 0,
+  "embed_dim": 300,
+  "num_filters": 128,
+  "kernel_sizes": [2, 3, 4, 5, 7],
+  "hidden_dim": 256,
+  "num_labels": 7,
+  "dropout": 0.5,
+  "pad_index": 0,
+  "unk_index": 1,
+  "max_seq_len": 256,
+  "min_seq_len": 7,
+  "fixed_len": 0,
+  "target_index": 0,
+  "weights": "textcnn_toxicity.pt",
+  "vocab": "vocab.tsv"
+}

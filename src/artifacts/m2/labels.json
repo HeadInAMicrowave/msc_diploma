@@ -1,0 +1,12 @@
+{
+  "id2label": {
+    "0": "OUT",
+    "1": "TOXIC"
+  },
+  "label2id": {
+    "OUT": 0,
+    "TOXIC": 1
+  },
+  "max_length": 64,
+  "do_lower_case": true
+}

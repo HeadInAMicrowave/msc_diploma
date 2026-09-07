@@ -1,0 +1,323 @@
+{
+  "a": "..\\second_model\\data\\test_human.jsonl",
+  "b": "..\\second_model\\data\\test.jsonl",
+  "drop_flagged": false,
+  "overall": {
+    "n": 56,
+    "token_kappa": 0.44791917248015395,
+    "token_agreement": 0.7794117647058824,
+    "message_kappa": 0.4263764404609475,
+    "span_f1_macro": 0.6677139328925044,
+    "exact_match_rate": 0.4642857142857143
+  },
+  "by_category": {
+    "CLEAN": {
+      "n": 7,
+      "token_kappa": 1.0,
+      "token_agreement": 1.0,
+      "message_kappa": 1.0,
+      "span_f1_macro": 1.0,
+      "exact_match_rate": 1.0
+    },
+    "DIRECTED_HOSTILITY_FUSED": {
+      "n": 4,
+      "token_kappa": -0.4748603351955307,
+      "token_agreement": 0.08333333333333333,
+      "message_kappa": -0.5,
+      "span_f1_macro": 0.2,
+      "exact_match_rate": 0.0
+    },
+    "DIRECTED_HOSTILITY_SEPARABLE": {
+      "n": 11,
+      "token_kappa": 0.6825429695589148,
+      "token_agreement": 0.8561643835616438,
+      "message_kappa": 0.0,
+      "span_f1_macro": 0.8159835114380569,
+      "exact_match_rate": 0.18181818181818182
+    },
+    "FALSE_POSITIVE_TRAPS": {
+      "n": 3,
+      "token_kappa": 1.0,
+      "token_agreement": 1.0,
+      "message_kappa": 1.0,
+      "span_f1_macro": 1.0,
+      "exact_match_rate": 1.0
+    },
+    "FRONTIER_BANTER": {
+      "n": 4,
+      "token_kappa": 9.516197353929913e-17,
+      "token_agreement": 0.4166666666666667,
+      "message_kappa": 0.0,
+      "span_f1_macro": 0.5,
+      "exact_match_rate": 0.5
+    },
+    "GROUP_DIRECTED": {
+      "n": 1,
+      "token_kappa": 0.0,
+      "token_agreement": 0.0,
+      "message_kappa": 0.0,
+      "span_f1_macro": 0.0,
+      "exact_match_rate": 0.0
+    },
+    "MIXED": {
+      "n": 4,
+      "token_kappa": 0.2125984251968505,
+      "token_agreement": 0.68,
+      "message_kappa": 0.0,
+      "span_f1_macro": 0.6401515151515151,
+      "exact_match_rate": 0.25
+    },
+    "MULTI_SPAN": {
+      "n": 2,
+      "token_kappa": 0.9090909090909092,
+      "token_agreement": 0.9583333333333334,
+      "message_kappa": 1.0,
+      "span_f1_macro": 0.9444444444444444,
+      "exact_match_rate": 0.5
+    },
+    "PLAY_CRITICISM": {
+      "n": 7,
+      "token_kappa": 0.0,
+      "token_agreement": 0.8507462686567164,
+      "message_kappa": 0.0,
+      "span_f1_macro": 0.7142857142857143,
+      "exact_match_rate": 0.7142857142857143
+    },
+    "PROFANITY_OBFUSCATED": {
+      "n": 5,
+      "token_kappa": -0.023952095808383242,
+      "token_agreement": 0.5263157894736842,
+      "message_kappa": 0.0,
+      "span_f1_macro": 0.2333333333333333,
+      "exact_match_rate": 0.0
+    },
+    "PROFANITY_PLAIN": {
+      "n": 5,
+      "token_kappa": -5.995204332975848e-16,
+      "token_agreement": 0.8148148148148148,
+      "message_kappa": 0.0,
+      "span_f1_macro": 0.4,
+      "exact_match_rate": 0.4
+    },
+    "SELF_DIRECTED_AND_REPORTED": {
+      "n": 3,
+      "token_kappa": 1.0,
+      "token_agreement": 1.0,
+      "message_kappa": 1.0,
+      "span_f1_macro": 1.0,
+      "exact_match_rate": 1.0
+    }
+  },
+  "disagreements": [
+    {
+      "row": 7,
+      "category": "DIRECTED_HOSTILITY_FUSED",
+      "flag": null,
+      "a": "[you ' re dead weight and nothing else]",
+      "b": "you ' re dead weight and nothing else"
+    },
+    {
+      "row": 8,
+      "category": "DIRECTED_HOSTILITY_FUSED",
+      "flag": null,
+      "a": "[you have no business being in this rank]",
+      "b": "you have no business being in this rank"
+    },
+    {
+      "row": 9,
+      "category": "DIRECTED_HOSTILITY_FUSED",
+      "flag": null,
+      "a": "go back to the tutorial",
+      "b": "[go back to the tutorial]"
+    },
+    {
+      "row": 10,
+      "category": "DIRECTED_HOSTILITY_FUSED",
+      "flag": null,
+      "a": "[you totally suck]",
+      "b": "you [totally suck]"
+    },
+    {
+      "row": 11,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "go top , [you ' re so bad it hurts] , just farm",
+      "b": "go top , [you ' re so bad it hurts ,] just farm"
+    },
+    {
+      "row": 12,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "don ' t chase , [you trash player] , they have ult up",
+      "b": "don ' t chase , [you trash player ,] they have ult up"
+    },
+    {
+      "row": 13,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "group mid now , [you useless bot] , they ' re taking dragon",
+      "b": "group mid now , [you useless bot ,] they ' re taking dragon"
+    },
+    {
+      "row": 14,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "push mid , [you ' re dead weight but] at least you can push",
+      "b": "push mid , [you ' re dead weight] but at least you can push"
+    },
+    {
+      "row": 15,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "buy a control ward for once [you trash support]",
+      "b": "buy a control ward [for once you trash support]"
+    },
+    {
+      "row": 18,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "[you belong in bronze] , stop face checking bushes",
+      "b": "[you belong in bronze ,] stop face checking bushes"
+    },
+    {
+      "row": 19,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "you should ' ve listened to me and went top . [you are such a trash player] , when i call go baron you go baron .",
+      "b": "you should ' ve listened to me and went top . [you are such a trash player ,] when i call go baron you go baron ."
+    },
+    {
+      "row": 20,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "[you ' re the worst mid i ' ve seen , but] come take tower with me",
+      "b": "you ' re the worst mid i ' ve seen , but come take tower with me"
+    },
+    {
+      "row": 21,
+      "category": "DIRECTED_HOSTILITY_SEPARABLE",
+      "flag": null,
+      "a": "stop feeding [you useless bot] , group mid",
+      "b": "stop feeding [you useless bot ,] group mid"
+    },
+    {
+      "row": 27,
+      "category": "FRONTIER_BANTER",
+      "flag": null,
+      "a": "[you are such a noob]",
+      "b": "you are such a noob"
+    },
+    {
+      "row": 28,
+      "category": "FRONTIER_BANTER",
+      "flag": null,
+      "a": "[diff jungle]",
+      "b": "diff jungle"
+    },
+    {
+      "row": 29,
+      "category": "GROUP_DIRECTED",
+      "flag": null,
+      "a": "[worst team i ' ve ever had]",
+      "b": "worst team i ' ve ever had"
+    },
+    {
+      "row": 30,
+      "category": "MIXED",
+      "flag": null,
+      "a": "[fuck this useless jungler , never ganks]",
+      "b": "[fuck this useless jungler ,] never ganks"
+    },
+    {
+      "row": 32,
+      "category": "MIXED",
+      "flag": null,
+      "a": "[you fucking noob] , group mid",
+      "b": "you fucking noob , group mid"
+    },
+    {
+      "row": 33,
+      "category": "MIXED",
+      "flag": null,
+      "a": "get fucked , [you ' re hopeless]",
+      "b": "[get fucked , you ' re hopeless]"
+    },
+    {
+      "row": 34,
+      "category": "MULTI_SPAN",
+      "flag": null,
+      "a": "go top [you moron] , and ward for once [you clown]",
+      "b": "go top [you moron ,] and ward for once [you clown]"
+    },
+    {
+      "row": 39,
+      "category": "PLAY_CRITICISM",
+      "flag": null,
+      "a": "[that was a garbage call] , we should group",
+      "b": "that was a garbage call , we should group"
+    },
+    {
+      "row": 42,
+      "category": "PLAY_CRITICISM",
+      "flag": null,
+      "a": "[that was a braindead engage] , they had ult up",
+      "b": "that was a braindead engage , they had ult up"
+    },
+    {
+      "row": 43,
+      "category": "PROFANITY_OBFUSCATED",
+      "flag": null,
+      "a": "[phuck that noob]",
+      "b": "[phuck] that noob"
+    },
+    {
+      "row": 44,
+      "category": "PROFANITY_OBFUSCATED",
+      "flag": null,
+      "a": "holy sh1t nice",
+      "b": "holy [sh1t] nice"
+    },
+    {
+      "row": 45,
+      "category": "PROFANITY_OBFUSCATED",
+      "flag": "uncertain",
+      "a": "wtaf was that play",
+      "b": "[wtaf] was that play"
+    },
+    {
+      "row": 46,
+      "category": "PROFANITY_OBFUSCATED",
+      "flag": null,
+      "a": "[stfu and] play",
+      "b": "[stfu] and play"
+    },
+    {
+      "row": 47,
+      "category": "PROFANITY_OBFUSCATED",
+      "flag": null,
+      "a": "s h i t missed again",
+      "b": "[s h i t] missed again"
+    },
+    {
+      "row": 49,
+      "category": "PROFANITY_PLAIN",
+      "flag": null,
+      "a": "quit being a prick",
+      "b": "quit being a [prick]"
+    },
+    {
+      "row": 50,
+      "category": "PROFANITY_PLAIN",
+      "flag": null,
+      "a": "shit shit shit they ' re at baron",
+      "b": "[shit shit shit] they ' re at baron"
+    },
+    {
+      "row": 52,
+      "category": "PROFANITY_PLAIN",
+      "flag": null,
+      "a": "that was fucking insane",
+      "b": "that was [fucking] insane"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{"tokens": ["gg", "wp", "everyone"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["nice", "shot", "man"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["lets", "push", "mid", "now"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["heal", "me", "please"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["enemy", "spotted", "top", "lane"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["good", "game", "all"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["ty", "for", "the", "carry"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["rotate", "bot", "lane", "now"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["watch", "out", "behind", "you"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["great", "teamwork", "guys"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["focus", "the", "healer", "first"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["defend", "the", "objective"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["nice", "clutch", "play"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["gl", "hf", "everyone"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["on", "my", "way"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["ping", "the", "map", "please"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["save", "your", "ultimate"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["regroup", "at", "base"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["enemy", "jungler", "top", "side"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["push", "for", "the", "win"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["well", "played", "everyone"], "tags": ["OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["i", "love", "this", "map"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["good", "luck", "out", "there"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["thanks", "for", "the", "heal"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["report", "this", "guy", "please"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["nice", "ward", ",", "saved", "us"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["good", "call", "on", "dragon"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["i", "'", "ll", "peel", "for", "you", ",", "go", "in"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "CLEAN"}
+{"tokens": ["how", "are", "you", "this", "bad", "at", "this", "game"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["you", "are", "actually", "the", "worst", "player", "i", "'", "ve", "ever", "seen"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["a", "bot", "would", "do", "better", "than", "you"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["you", "'", "re", "hopeless"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["do", "you", "even", "have", "hands"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["you", "'", "re", "trash", "and", "honestly", "just", "uninstall"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["delete", "the", "game", ",", "you", "'", "re", "embarrassing"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["worst", "support", "in", "the", "history", "of", "this", "game"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["you", "'", "re", "the", "reason", "people", "quit", "this", "game"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["you", "should", "not", "be", "allowed", "to", "play", "ranked"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["how", "did", "you", "even", "get", "to", "this", "rank"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["you", "'", "re", "a", "waste", "of", "a", "team", "slot"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["stop", "playing", ",", "you", "'", "re", "hopeless"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["everything", "you", "do", "is", "wrong"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["you", "'", "re", "boosted", "and", "it", "shows"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["i", "'", "ve", "seen", "bots", "with", "better", "game", "sense", "than", "you"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["not", "a", "single", "good", "decision", "from", "you", "all", "game"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_FUSED"}
+{"tokens": ["you", "have", "no", "idea", "what", "you", "'", "re", "doing", ",", "just", "ward", "the", "river", "and", "stay", "behind", "me"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["peel", "for", "me", "you", "clown", ",", "i", "'", "m", "the", "carry", "here"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["you", "'", "re", "the", "reason", "we", "'", "re", "losing", ",", "back", "off", "the", "tower"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["save", "your", "ult", "next", "time", "you", "brainless", "player", ",", "we", "needed", "it", "for", "the", "fight"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["rotate", "bot", "lane", ",", "and", "stop", "being", "so", "useless"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["a", "bot", "would", "play", "better", "than", "you", ",", "take", "the", "objective", "when", "i", "ping", "it"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["you", "'", "re", "hopeless", "honestly", ",", "but", "come", "help", "at", "dragon"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["take", "the", "tower", "now", ",", "you", "'", "re", "completely", "worthless", "in", "fights", "anyway"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["ward", "your", "lane", "you", "garbage", "jungler", ",", "they", "keep", "ganking"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["we", "need", "to", "group", ",", "you", "'", "re", "the", "worst", "support", "i", "'", "ve", "ever", "had"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["hold", "the", "site", "and", "stop", "being", "dead", "weight"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["rotate", "to", "b", "now", ",", "are", "you", "even", "trying"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["go", "back", "to", "bot", "games", ",", "and", "buy", "wards", "for", "once"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["watch", "the", "flank", ",", "you", "dogwater", "player"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["stop", "dying", "for", "free", "you", "pathetic", "player", ",", "we", "can", "'", "t", "take", "baron", "like", "this"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["def", "base", "now", ",", "you", "have", "zero", "game", "sense"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["split", "push", "top", ",", "you", "'", "re", "clearly", "boosted", "anyway"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["heal", "me", ",", "you", "'", "re", "the", "most", "useless", "healer", "alive"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["drop", "the", "flag", "and", "run", ",", "you", "absolute", "bot"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["stay", "back", "and", "farm", ",", "you", "'", "re", "a", "liability", "in", "every", "fight"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["the", "enemy", "jungler", "is", "top", ",", "and", "you", "'", "re", "braindead", "for", "not", "warding"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["go", "afk", "farm", ",", "you", "'", "re", "a", "waste", "of", "a", "slot", "on", "this", "team"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["you", "'", "re", "the", "reason", "i", "'", "m", "losing", "elo", ",", "just", "take", "dragon", "with", "me"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["use", "your", "ult", "on", "the", "healer", ",", "you", "have", "no", "brain"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["don", "'", "t", "fight", "in", "their", "jungle", ",", "you", "never", "learn", "anything"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["ping", "before", "you", "engage", ",", "you", "brainless", "bot"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["ok", "whatever", ",", "you", "'", "re", "useless", ",", "just", "group", "and", "follow"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["stop", "stealing", "my", "farm", "you", "garbage", "player", ",", "i", "need", "the", "gold"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["don", "'", "t", "flash", "forward", "like", "that", ",", "you", "'", "re", "hopeless", "in", "fights"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["peel", "the", "adc", ",", "you", "have", "no", "clue", "how", "to", "play", "this", "role"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["we", "lost", "baron", "because", "you", "'", "re", "clueless", ",", "let", "'", "s", "just", "def"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["stop", "inting", ",", "you", "'", "re", "a", "joke", ",", "group", "at", "dragon"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["hold", "the", "choke", ",", "you", "useless", "player", ",", "they", "'", "re", "pushing"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["rez", "me", ",", "you", "left", "me", "to", "die", "like", "a", "coward"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["cover", "me", "while", "i", "plant", ",", "you", "'", "re", "useless", "with", "a", "gun", "anyway"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["don", "'", "t", "dive", "alone", ",", "you", "never", "think", ",", "wait", "for", "me"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["take", "the", "dragon", ",", "you", "'", "re", "garbage", "but", "you", "can", "at", "least", "do", "that"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["you", "play", "like", "a", "bot", ",", "ward", "the", "river", "next", "time"], "tags": ["OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["you", "'", "re", "carried", "by", "your", "duo", ",", "take", "the", "tower"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["we", "'", "re", "winning", "despite", "you", ",", "just", "push", "bot"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["you", "should", "be", "ashamed", "of", "that", "positioning", ",", "stay", "behind", "the", "tank"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["get", "off", "my", "lane", "you", "useless", "bot", ",", "i", "'", "m", "carrying", "this"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "DIRECTED_HOSTILITY_SEPARABLE"}
+{"tokens": ["assassin", "build", "is", "strong"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["the", "grass", "looks", "weird"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["cockpit", "view", "is", "cool"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["i", "love", "shiitake", "mushrooms"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["scunthorpe", "united", "fan", "here"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["back", "to", "the", "classic", "map"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["pass", "me", "the", "buff"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["assemble", "at", "the", "point"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["assess", "the", "situation", "first"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["glass", "cannon", "build"], "tags": ["OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["cumulative", "damage", "from", "the", "dot", "is", "huge"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["the", "analysis", "was", "spot", "on"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "FALSE_POSITIVE_TRAPS"}
+{"tokens": ["ez", "game", "ez", "life"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["gg", "ez"], "tags": ["OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["ez", "clap"], "tags": ["OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["git", "gud"], "tags": ["OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["git", "gud", "noob"], "tags": ["OUT", "OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["skill", "issue", "honestly"], "tags": ["TOXIC", "TOXIC", "TOXIC"], "category": "FRONTIER_BANTER"}
+{"tokens": ["l", "bozo", "ratio"], "tags": ["OUT", "TOXIC", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["ez"], "tags": ["OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["get", "good", "scrub"], "tags": ["OUT", "OUT", "TOXIC"], "category": "FRONTIER_BANTER"}
+{"tokens": ["outplayed", ",", "gg"], "tags": ["OUT", "OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["ez", "win", "boys"], "tags": ["OUT", "OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["noob", "team", "lol"], "tags": ["TOXIC", "TOXIC", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["cope", "harder"], "tags": ["OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["ratio", "+", "l"], "tags": ["OUT", "OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["ez", "mid"], "tags": ["OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["gg", "no", "re"], "tags": ["OUT", "OUT", "OUT"], "category": "FRONTIER_BANTER"}
+{"tokens": ["you", "'", "re", "such", "a", "noob", "lol"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "FRONTIER_PREDICATE"}
+{"tokens": ["diff", "mid", "honestly"], "tags": ["OUT", "OUT", "OUT"], "category": "FRONTIER_PREDICATE"}
+{"tokens": ["this", "team", "is", "garbage"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "GROUP_DIRECTED"}
+{"tokens": ["you", "'", "re", "all", "useless"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC"], "category": "GROUP_DIRECTED"}
+{"tokens": ["my", "team", "is", "a", "bunch", "of", "bots"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "GROUP_DIRECTED"}
+{"tokens": ["this", "team", "can", "'", "t", "do", "anything", "right"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "GROUP_DIRECTED"}
+{"tokens": ["what", "a", "useless", "team"], "tags": ["OUT", "OUT", "TOXIC", "TOXIC"], "category": "GROUP_DIRECTED"}
+{"tokens": ["fuck", "you", ",", "you", "useless", "player"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "MIXED"}
+{"tokens": ["shut", "the", "fuck", "up", "you", "trash", "bot"], "tags": ["OUT", "OUT", "TOXIC", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MIXED"}
+{"tokens": ["go", "top", "you", "fucking", "moron"], "tags": ["OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MIXED"}
+{"tokens": ["group", "mid", "you", "shit", "player"], "tags": ["OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MIXED"}
+{"tokens": ["you", "fucking", "noob"], "tags": ["TOXIC", "TOXIC", "TOXIC"], "category": "MIXED"}
+{"tokens": ["ward", "the", "river", "you", "shit", "support", ",", "they", "keep", "ganking"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "MIXED"}
+{"tokens": ["stop", "fucking", "feeding", ",", "you", "'", "re", "garbage", ",", "just", "group"], "tags": ["OUT", "TOXIC", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT"], "category": "MIXED"}
+{"tokens": ["take", "dragon", "now", "you", "fucking", "bot"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MIXED"}
+{"tokens": ["fuck", "off", "and", "let", "me", "farm", ",", "you", "useless", "player"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MIXED"}
+{"tokens": ["you", "'", "re", "a", "fucking", "waste", "of", "a", "slot"], "tags": ["OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "MIXED"}
+{"tokens": ["what", "the", "fuck", "are", "you", "doing", ",", "go", "back"], "tags": ["OUT", "OUT", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "MIXED"}
+{"tokens": ["shit", "player", ",", "just", "push", "bot", "with", "me"], "tags": ["TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "MIXED"}
+{"tokens": ["fuck", ",", "you", "'", "re", "so", "bad", ",", "just", "def", "base"], "tags": ["TOXIC", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "MIXED"}
+{"tokens": ["damn", "you", "'", "re", "useless", ",", "take", "the", "tower", "anyway"], "tags": ["OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT"], "category": "MIXED"}
+{"tokens": ["holy", "shit", "you", "'", "re", "bad", ",", "ward", "next", "time"], "tags": ["OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "MIXED"}
+{"tokens": ["nice", "shot", "idiot", ",", "now", "push", "mid", "you", "clown"], "tags": ["OUT", "OUT", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["good", "rotation", ",", "shame", "you", "'", "re", "useless", "in", "fights", ",", "group", "now", "you", "clown"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["you", "'", "re", "trash", "at", "mid", ",", "take", "the", "tower", ",", "and", "you", "'", "re", "trash", "at", "objectives", "too"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["peel", "for", "me", "you", "clown", ",", "then", "go", "farm", "you", "useless", "bot"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["you", "useless", "support", ",", "heal", "me", ",", "you", "absolute", "bot"], "tags": ["TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["take", "dragon", ",", "you", "brainless", "player", ",", "then", "push", "bot", ",", "you", "liability"], "tags": ["OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["you", "never", "listen", "you", "clown", ",", "group", "at", "baron", ",", "hopeless", "as", "always"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["rotate", "b", "you", "bot", ",", "plant", "it", ",", "you", "useless", "teammate"], "tags": ["OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["you", "'", "re", "garbage", ",", "but", "nice", "ult", ",", "still", "garbage", "though"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["stop", "feeding", "you", "idiot", ",", "we", "group", "now", ",", "and", "stop", "flaming", "you", "hypocrite"], "tags": ["OUT", "OUT", "TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "TOXIC", "TOXIC"], "category": "MULTI_SPAN"}
+{"tokens": ["that", "engage", "was", "hopeless", ",", "wait", "for", "the", "tank", "next", "time"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["terrible", "draft", ",", "we", "have", "no", "frontline"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["useless", "ult", "there", ",", "save", "it", "for", "the", "fight"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["what", "a", "clown", "play", ",", "let", "'", "s", "just", "def"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["worst", "baron", "call", "of", "the", "game", ",", "we", "weren", "'", "t", "ready"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["our", "vision", "is", "garbage", ",", "we", "need", "more", "wards"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["that", "dive", "was", "a", "mistake", ",", "don", "'", "t", "do", "it", "again"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["bad", "positioning", "in", "that", "fight", ",", "stay", "behind", "the", "tank"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["that", "was", "a", "terrible", "trade", ",", "back", "off", "next", "time"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["this", "lag", "is", "unplayable"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["the", "matchmaking", "is", "a", "joke"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["that", "call", "was", "garbage", ",", "we", "should", "have", "taken", "dragon"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["we", "wasted", "the", "ult", ",", "that", "'", "s", "on", "all", "of", "us"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["the", "peel", "was", "nonexistent", ",", "we", "need", "to", "protect", "the", "carry"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["horrible", "timing", "on", "that", "engage"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["that", "was", "a", "bad", "flank", ",", "they", "saw", "us", "coming"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["sloppy", "play", "from", "all", "of", "us", ",", "focus", "up"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["the", "split", "push", "isn", "'", "t", "working", ",", "group", "up"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["that", "was", "the", "wrong", "target", ",", "hit", "the", "healer", "first"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["that", "push", "was", "way", "too", "early"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["bad", "call", "to", "contest", ",", "we", "should", "have", "farmed"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["we", "threw", "that", "fight", ",", "no", "vision"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["this", "patch", "is", "garbage", ",", "the", "balance", "is", "off"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["we", "'", "re", "feeding", "mid", ",", "let", "'", "s", "group", "instead"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["terrible", "objective", "control", "this", "game"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["that", "was", "a", "hopeless", "fight", ",", "we", "should", "have", "backed"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["useless", "engage", ",", "we", "had", "no", "follow", "up"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["the", "enemy", "team", "is", "smurfing", ",", "this", "lobby", "is", "a", "joke"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PLAY_CRITICISM"}
+{"tokens": ["wtf", "was", "that"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["sh1t", "that", "hurt"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["f", "u", "c", "k", "this", "game"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["stfu", "already"], "tags": ["TOXIC", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["omfg", "so", "laggy"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["b1tch", "please"], "tags": ["TOXIC", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["fck", "this", "lag"], "tags": ["OUT", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["ffs", "my", "team"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["dafuq", "is", "happening"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["azzhole", "move", "there"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["fuk", "this", "map"], "tags": ["OUT", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["dammit", "missed", "again"], "tags": ["OUT", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["biatch", "stop", "it"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["effin", "campers", "again"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["fuq", "the", "lag"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["w", "t", "f", "are", "you", "doing"], "tags": ["TOXIC", "TOXIC", "TOXIC", "OUT", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["sh", "!", "t", "we", "lost", "baron"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["f", "*", "ck", "this", "matchup"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["what", "the", "h", "e", "l", "l"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PROFANITY_OBFUSCATED"}
+{"tokens": ["shit", "i", "died", "again"], "tags": ["TOXIC", "OUT", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["this", "is", "bullshit"], "tags": ["OUT", "OUT", "TOXIC"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["damn", "nice", "play"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["fuck", "this", "lag"], "tags": ["TOXIC", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["stop", "being", "an", "asshole"], "tags": ["OUT", "OUT", "TOXIC", "TOXIC"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["that", "bitch", "stole", "my", "kill"], "tags": ["OUT", "TOXIC", "OUT", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["what", "a", "dick", "move"], "tags": ["OUT", "OUT", "TOXIC", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["i", "am", "so", "pissed", "right", "now"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["this", "map", "is", "shitty"], "tags": ["OUT", "OUT", "OUT", "TOXIC"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["holy", "shit", "that", "aim"], "tags": ["OUT", "TOXIC", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["what", "the", "fuck", "team"], "tags": ["OUT", "OUT", "TOXIC", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["get", "this", "bastard"], "tags": ["OUT", "OUT", "TOXIC"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["piss", "off", "please"], "tags": ["TOXIC", "TOXIC", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["oh", "crap", "my", "bad"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["you", "little", "shit"], "tags": ["OUT", "TOXIC", "TOXIC"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["hell", "yeah", "lets", "go"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["that", "fucking", "jungler", "never", "ganks"], "tags": ["OUT", "TOXIC", "OUT", "OUT", "OUT"], "category": "PROFANITY_PLAIN"}
+{"tokens": ["my", "bad", "i", "fed"], "tags": ["OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["i", "'", "m", "so", "bad", "today"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["i", "'", "m", "the", "reason", "we", "lost", "that", "one"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["sorry", "i", "'", "m", "useless", "on", "this", "champ"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["they", "said", "i", "'", "m", "trash", "in", "all", "chat"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["some", "guy", "called", "me", "a", "bot", "last", "game"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["i", "keep", "dying", ",", "i", "'", "m", "hopeless"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["my", "positioning", "is", "garbage", "today"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["i", "'", "m", "hardstuck", "and", "it", "'", "s", "on", "me"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["the", "enemy", "said", "ez", ",", "whatever"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["got", "told", "to", "go", "back", "to", "bronze", ",", "rude"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
+{"tokens": ["i", "'", "m", "dead", "weight", "this", "game", "sorry"], "tags": ["OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT", "OUT"], "category": "SELF_DIRECTED_AND_REPORTED"}
